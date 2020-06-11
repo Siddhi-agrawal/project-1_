@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="false"
+    android:animateLayoutChanges="true"
+    android:animationCache="false"
+    android:background="#6200EA"
+    android:backgroundTint="#00C7EA00"
+    android:foreground="#00D81B1B"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/message"
+        android:layout_width="367dp"
+        android:layout_height="65dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="MESSAGE"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/phone"
+        android:layout_width="367dp"
+        android:layout_height="65dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="PHONE"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/browser"
+        android:layout_width="367dp"
+        android:layout_height="65dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="BROWSER"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/facebook"
+        android:layout_width="367dp"
+        android:layout_height="65dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="FACEBOOK"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/instagram"
+        android:layout_width="367dp"
+        android:layout_height="65dp"
+        android:background="@android:color/holo_red_light"
+        android:text="INSTAGRAM"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
